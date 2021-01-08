@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun showAlertDialog() {
         //等待别人来贡献完成
+        AlertDialog.Builder(this)
+
     }
 
     private fun showListDialog() {
