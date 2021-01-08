@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     private fun showListDialog() {
         //等别人Fork之后在添加的代码，用来检测提交者有没有在提交之前和仓库进行同步
         AlertDialog.Builder(this)
-                .setSingleChoiceItems(arrayOf("1", "2"), 0, null)
+                .setSingleChoiceItems(arrayOf("3", "4"), 0, null)
                 .show()
     }
 }
